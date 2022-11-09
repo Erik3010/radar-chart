@@ -3,6 +3,7 @@ export interface ChartOption {
   size: Size;
   labels: string[];
   datasets: Dataset[];
+  strokeWidth: number;
 }
 
 export interface Size {
@@ -13,4 +14,6 @@ export interface Size {
 export interface Dataset {
   name: string;
   data: number[];
+  strokeColor: string;
+  fillColor: string;
 }

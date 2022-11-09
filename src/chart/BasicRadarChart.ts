@@ -1,14 +1,14 @@
-import { ChartOption } from "./types/ChartOption";
-import { Coordinate } from "./types/Coordinate";
-import { createElement, angleToRadian, roundNumber } from "./utils";
+import { ChartOption } from "../types/ChartOption";
+import { Coordinate } from "../types/Coordinate";
+import { createElement, angleToRadian, roundNumber } from "../utils";
 import {
   LABEL_FONT_SIZE,
   LABEL_PADDING,
   CHART_PADDING,
   DOT_RADIUS,
-} from "./constants";
+} from "../constants";
 
-class Chart {
+class BasicRadarChart {
   option: ChartOption;
   canvas: HTMLCanvasElement;
   ctx: CanvasRenderingContext2D;
@@ -162,4 +162,4 @@ class Chart {
   }
 }
 
-export default Chart;
+export default BasicRadarChart;

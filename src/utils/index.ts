@@ -15,3 +15,6 @@ export const angleToRadian = (angle: number) => angle * (Math.PI / 180);
 
 export const lerp = (start: number, end: number, t: number) =>
   (1 - t) * start + t * end;
+
+export const roundNumber = (num: number, decimal = 2) =>
+  Number(num.toFixed(decimal));
