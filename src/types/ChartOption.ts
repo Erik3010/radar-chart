@@ -1,9 +1,12 @@
-export interface ChartOption {
+export interface ChartOption<T extends ChartType = ChartType> {
   selector: string;
   size: Size;
   labels: string[];
-  datasets: Dataset[];
+  // datasets: MultipleDataset | SingleDataset;
+  // datasets: Dataset[];
+  datasets: ChartDatasetRegistry[T];
   strokeWidth: number;
+  type: ChartType;
 }
 
 export interface Size {
@@ -17,3 +20,17 @@ export interface Dataset {
   strokeColor: string;
   fillColor: string;
 }
+
+export interface ChartDatasetRegistry {
+  basic: BasicRadarDataset;
+  pie: PieRadarDataset;
+}
+
+export type ChartType = keyof ChartDatasetRegistry;
+
+export type BasicRadarDataset = Dataset[];
+export type PieRadarDataset = number[];
+
+// export type MultipleDataset = Dataset[];
+
+// export type SingleDataset = number[];
