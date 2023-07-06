@@ -6,13 +6,11 @@ Radar chart is a library (soon) that allows you to create radar charts based on 
 
 ## How to use
 
-<img src="https://github.com/Erik3010/radar-chart/blob/master/preview/basic.png?raw=true" alt="Basic Radar chart" width="30%" height="30%">
-
 There are two types of charts in this library. There are Basic and Pie chart.
 
 ### Basic Chart
 
-<img src="https://github.com/Erik3010/radar-chart/blob/master/preview/pie.png?raw=true" alt="Pie Radar chart" width="30%" height="30%">
+<img src="https://github.com/Erik3010/radar-chart/blob/master/preview/basic.png?raw=true" alt="Basic Radar chart" width="30%" height="30%">
 
 It is a radar chart that has a line that connects the points. This is the default chart.
 
@@ -47,6 +45,8 @@ new Chart({
 ```
 
 ### Pie Chart
+
+<img src="https://github.com/Erik3010/radar-chart/blob/master/preview/pie.png?raw=true" alt="Pie Radar chart" width="30%" height="30%">
 
 It is a radar chart that the largest value is the outer part of the chart and the smallest value is the center of the chart.
 
