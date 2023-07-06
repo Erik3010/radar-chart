@@ -6,7 +6,7 @@ const pieChart = new Chart({
   type: "pie",
   size: { width: 500, height: 500 },
   strokeWidth: 2,
-  labels: ["Javascript", "PHP", "Ruby", "Rust", "Go"],
+  labels: ["Java", "PHP", "Ruby", "Rust", "Go"],
   datasets: [10, 50, 12, 25, 15],
 });
 
@@ -15,7 +15,7 @@ const basicChart = new Chart({
   type: "basic",
   size: { width: 500, height: 500 },
   strokeWidth: 2,
-  labels: ["Javascript", "PHP", "Ruby", "Rust", "Go"],
+  labels: ["Java", "PHP", "Ruby", "Rust", "Go"],
   datasets: [
     {
       name: "Developer 1",
