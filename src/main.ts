@@ -1,7 +1,7 @@
 import "./style.css";
 import Chart from "./Chart";
 
-const pieChart = new Chart({
+new Chart({
   selector: "#app",
   type: "pie",
   size: { width: 500, height: 500 },
@@ -10,7 +10,7 @@ const pieChart = new Chart({
   datasets: [10, 50, 12, 25, 15],
 });
 
-const basicChart = new Chart({
+new Chart({
   selector: "#app",
   type: "basic",
   size: { width: 500, height: 500 },

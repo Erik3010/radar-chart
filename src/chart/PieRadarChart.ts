@@ -1,5 +1,5 @@
 import { Coordinate } from "../types/Coordinate";
-import { LABEL_FONT_SIZE, LABEL_PADDING, POINT_RADIUS } from "../constants";
+import { LABEL_FONT_SIZE, LABEL_PADDING } from "../constants";
 import RadarChart from "./RadarChart";
 import { RadarChartOption } from "../types/RadarChartOption";
 
