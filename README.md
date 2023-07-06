@@ -6,10 +6,12 @@ Radar chart is a library (soon) that allows you to create radar charts based on 
 
 ## How to use
 
+![Basic Radar Chart](https://github.com/Erik3010/radar-chart/preview/basic.png?raw=true)
 There are two types of charts in this library. There are Basic and Pie chart.
 
 ### Basic Chart
 
+![Pie Radar Chart](https://github.com/Erik3010/radar-chart/preview/pie.png?raw=true)
 It is a radar chart that has a line that connects the points. This is the default chart.
 
 ```javascript
